@@ -2,8 +2,14 @@ body {
   background-color: hsl(0, 0%, 95%);
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
-  width: auto;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+
 }
 
 p {
@@ -27,23 +33,13 @@ img{
   margin-left: 50px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  position: relative;
-  top: 325px;
-}
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 #cards {
 
   justify-content: center;
   display: flex;
-  position: relative;
-  top: 325px;
+
 
 }
 
@@ -69,6 +65,19 @@ img{
   border-radius: 0px 10px 10px 0px;
 }
 
+
+/************************************** FOOTER*********************************** */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/****************************************** BUTTONS **************************************/
 .btn-Sedans {
   background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
@@ -140,7 +149,7 @@ img{
   color: hsl(0, 0%, 95%);
   border: solid 2px hsl(0, 0%, 95%);
 }
-
+/******************************************* MOBILE SCREEN **************************/
 @media (max-width: 960px) {
   body{
 
